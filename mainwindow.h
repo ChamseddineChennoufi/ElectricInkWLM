@@ -1,7 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-#include "Livre.h"
-#include "etagere.h"
+#include "employees.h"
+#include "programme.h"
 #include <QMainWindow>
 
 namespace Ui {
@@ -25,20 +25,12 @@ private slots:
 
     void on_pb_supprimer_2_clicked();
 
-    void on_pb_modifier_clicked();
-
-    void on_pb_modifier_4_clicked();
-
     void on_pb_rechercher_clicked();
-
-    void on_pb_supprimer_5_clicked();
-
-    void on_pb_modifier_5_clicked();
 
 private:
     Ui::MainWindow *ui;
-    Livre tmplivre;
-    Etagere tmpetagere;
+    Employees tmpemployees;
+    Programme tmpprogramme;
 };
 
 #endif // MAINWINDOW_H

@@ -25,17 +25,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-    Livre.cpp \
-    etagere.cpp \
         main.cpp \
         mainwindow.cpp \
-    connexion.cpp
+    connexion.cpp \
+    employees.cpp \
+    programme.cpp
 
 HEADERS += \
-    Livre.h \
-    etagere.h \
         mainwindow.h \
-    connexion.h
+    connexion.h \
+    employees.h \
+    programme.h
 
 FORMS += \
         mainwindow.ui
