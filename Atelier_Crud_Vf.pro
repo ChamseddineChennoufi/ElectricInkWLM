@@ -25,15 +25,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-    abonnement.cpp \
-    abonnes.cpp \
+    Livre.cpp \
+    etagere.cpp \
         main.cpp \
         mainwindow.cpp \
     connexion.cpp
 
 HEADERS += \
-    abonnement.h \
-    abonnes.h \
+    Livre.h \
+    etagere.h \
         mainwindow.h \
     connexion.h
 

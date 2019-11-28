@@ -1,7 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-#include "abonnement.h"
-#include "abonnes.h"
+#include "Livre.h"
+#include "etagere.h"
 #include <QMainWindow>
 
 namespace Ui {
@@ -18,21 +18,27 @@ public:
 
 private slots:
     void on_pb_ajouter_clicked();
-    void on_pb_ajouter_2_clicked();
 
     void on_pb_supprimer_clicked();
+
+    void on_pb_ajouter_2_clicked();
+
     void on_pb_supprimer_2_clicked();
 
-    void on_pushButton_clicked();
+    void on_pb_modifier_clicked();
 
-    void on_pushButton_2_clicked();
+    void on_pb_modifier_4_clicked();
 
-    void on_Rechercher_clicked();
+    void on_pb_rechercher_clicked();
+
+    void on_pb_supprimer_5_clicked();
+
+    void on_pb_modifier_5_clicked();
 
 private:
     Ui::MainWindow *ui;
-    Abonnement tmpabonnement;
-    abonnes tmpabonnes ;
+    Livre tmplivre;
+    Etagere tmpetagere;
 };
 
 #endif // MAINWINDOW_H
